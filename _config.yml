@@ -2,7 +2,7 @@ name: Sean Clayton
 description: Time's Person of the Year, 2006
 meta_description: "Thoughts and writings from Sean Clayton."
 
-aboutPage: true
+aboutPage: false
 
 markdown: redcarpet
 highlighter: pygments
@@ -12,7 +12,7 @@ redcarpet:
 
 paginate: 20
 baseurl: /
-domain_name: 'https://seanclayton.me'
+domain_name: 'https://blog.seanclayton.me'
 google_analytics: 'UA-19039465-4'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
@@ -23,11 +23,11 @@ github_repo: 'sean-clayton.github.io'
 email: 'sean@seanclayton.me'
 
 # Details for the RSS feed generator
-url:            'https://seanclayton.me'
+url:            'https://blog.seanclayton.me'
 author:         'Sean Clayton'
 authorTwitter:  'seanybingbong'
 
-permalink:       /:year/:title/
+permalink:       /:title/
 
 defaults:
   -
