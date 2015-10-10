@@ -10,6 +10,9 @@ highlighter: pygments
 redcarpet:
   extensions: ['no_intra_emphasis', 'fenced_code_blocks', 'autolink', 'strikethrough', 'superscript']
 
+sass:
+  style: compressed
+
 paginate: 20
 baseurl: /
 domain_name: 'https://blog.seanclayton.me'
