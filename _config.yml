@@ -1,0 +1,12 @@
+# Site settings
+title: Sean Clayton
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Time's Person of the Year 2006
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://seanclayton.me" # the base hostname & protocol for your site
+twitter_username: seanybingbong
+github_username:  sean-clayton
+
+# Build settings
+markdown: kramdown
