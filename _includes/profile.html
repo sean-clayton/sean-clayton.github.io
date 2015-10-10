@@ -3,10 +3,10 @@
     <header id="header">
     {% if site.aboutPage %}
       <a href="{{ site.baseurl }}">
-        <img id="avatar" class="2x" src="https://avatars.io/twitter/{{ site.authorTwitter }}?size=large"/>
+        <img id="avatar" class="2x" src="https://avatars.io/email/{{ site.email }}?size=large"/>
       </a>
     {% else %}
-      <img id="avatar" class="2x" src="https://avatars.io/twitter/{{ site.authorTwitter }}?size=large"/>
+      <img id="avatar" class="2x" src="https://avatars.io/email/{{ site.email }}?size=large"/>
     {% endif %}
       <h1>{{ site.author }}</h1>
       <h2>{{ site.description }}</h2>
