@@ -15,7 +15,7 @@ The software that runs the site is licensed under the BSD ISC license. More info
 All writing is released under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License].
 
 [LICENSE]: LICENSE
-[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License]: http://creativecommons.org/licenses/by-sa/4.0/
+[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License]: https://creativecommons.org/licenses/by-sa/4.0/
 
 Both licenses are fairly liberal in the rights it gives others, and I have no intention on changing them any time soon.
 
@@ -31,8 +31,8 @@ Most of the tools used to make this site are open-source software, and those tha
 - Hosting: [Github]
 
 [Atom]: https://atom.io/
-[OS X]: http://www.apple.com/osx/
+[OS X]: https://www.apple.com/osx/
 [iTerm]: https://iterm2.com/
 [Git]: https://git-scm.com/
-[Jekyll]: http://jekyllrb.com/
+[Jekyll]: https://jekyllrb.com/
 [Github]: https://github.com/

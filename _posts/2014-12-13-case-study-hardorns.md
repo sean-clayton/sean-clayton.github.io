@@ -56,6 +56,6 @@ See, there it is! This is the final logo I came up with. Other than bumping up t
 
 The main logotype now looks made of gold instead of silly putty with some sort of strange faux-3d offset dropshadow... thing. It's a very rich and smooth style, which I like a lot. The ribbon is also a ton shinier, with an increased contrast on the word "Bakery" against the ribbon.
 
-Here is a version that was pretty'd up for presenting with some lighting cues from [Daft Punk](http://i.imgur.com/ew9woyA.jpg).
+Here is a version that was pretty'd up for presenting with some lighting cues from [Daft Punk](https://i.imgur.com/ew9woyA.jpg).
 
 ![Hadorn's New Logo with Post-Processing](https://res.cloudinary.com/seanclayton/image/upload/v1443981019/xc8wy1jcudwe3fg9cegd.png)
