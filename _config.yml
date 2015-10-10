@@ -1,5 +1,5 @@
 name: Sean Clayton
-description: Time's Person of the Year, 2006
+description: "Thoughts and Writings"
 meta_description: "Thoughts and writings from Sean Clayton."
 
 aboutPage: false
@@ -25,6 +25,7 @@ email: 'sean@seanclayton.me'
 # Details for the RSS feed generator
 url:            'https://blog.seanclayton.me'
 author:         'Sean Clayton'
+authorSnippet:  "Time's Person of the Year, 2006"
 authorTwitter:  'seanybingbong'
 
 permalink:       /:title/
