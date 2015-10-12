@@ -9,10 +9,6 @@ $spacing-unit:     30px;
 }
 
 .highlight {
-  background: #fff;
-  border-radius: .3rem;
-  box-shadow: 0 .5em 1.5em rgba(black, .15);
-  margin: 2em 0 2.5em 0;
   @extend %vertical-rhythm;
 
   .c     { color: #998; font-style: italic } // Comment

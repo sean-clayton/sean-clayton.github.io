@@ -15,3 +15,141 @@ $wite: #f0f0f0;
 $blak: #303030;
 $dark-gray: lighten($blak, 25%);
 $light-gray: darken($wite, 25%);
+
+$root-text-color: $svelte;
+$root-background-color: white;
+
+$heading-text-color: $blak;
+
+$profile-header-border-color: darken($root-background-color, 10%);
+
+:root {
+  background-color: $root-background-color;
+  color: $root-text-color;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $heading-text-color;
+}
+
+blockquote {
+  color: lighten($root-text-color, 25%);
+}
+
+.main-nav {
+  .main-nav-links {
+    a {
+      color: $svelte;
+    }
+  }
+}
+
+.hero-nav {
+  h1 {
+    color: white;
+  }
+
+  .main-nav-links {
+    a {
+      color: white;
+    }
+  }
+
+  a {
+    text-shadow: 0 1px 2px rgba(black, .25);
+  }
+}
+
+.main-header {
+  @include background-image(linear-gradient(
+    135deg, #00d9ff, $blue
+  ));
+  background-color: $blue;
+
+  .avatar {
+    box-shadow: 0 0 0 2px white, 0 2px 6px rgba(black, .5);
+  }
+
+  h2 {
+    color: white;
+    text-shadow: 0 1px 2px rgba(black, .25);
+  }
+}
+
+.post-listing {
+  border-bottom: 1px solid darken($root-background-color, 10%);
+
+  &:hover {
+    .post-listing-title, .post-listing-published-date { color: $blue }
+  }
+}
+
+.post-listing-published-date {
+  color: #ccc;
+}
+
+.main-hr {
+  border: 0;
+  background: rgba(black, .1);
+}
+
+.main-footer {
+  color: #ccc;
+
+  a {
+    color: $blue;
+  }
+}
+
+.post {
+  a {
+    color: $blue;
+  }
+
+  p {
+    color: lighten($svelte, 25%);
+
+    code {
+      background: black;
+      color: white;
+    }
+  }
+
+  .highlight {
+    color: white;
+    background: $blak;
+    // box-shadow: 0 .5em 1.5em rgba(black, .15);
+  }
+
+  hr {
+    height: 6px;
+    border: 0;
+    margin: 2rem auto;
+    background-position: 50%;
+    box-sizing: border-box;
+    @include background-image(radial-gradient(
+      closest-side,
+      rgba(0, 0, 0, .25),
+      rgba(0, 0, 0, 0) 100%
+    ));
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top:  50%;
+      left: 50%;
+      display:block;
+      background-color: rgba(0, 0, 0, .5);
+      height: 1.2rem;
+      width:  1.2rem;
+      transform: rotate(45deg);
+      margin-top:  -10px;
+      margin-left: -10px;
+      border-radius: 4px 0;
+      border: 4px solid rgba(0, 0, 0, .25);
+      background-clip: padding-box;
+      box-shadow: -10px 10px 0 rgba(0, 0, 0, .15), 10px -10px 0 rgba(0, 0, 0, .15);
+    }
+  }
+}

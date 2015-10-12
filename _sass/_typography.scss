@@ -1,0 +1,109 @@
+$default-font-family: "Open Sans", "Roboto", "Helvetica Neue", Helvetica, "Segoe UI", arial, sans-serif;
+$quote-font-family: "Lora", Georgia, sans-serif;
+$code-font-family: "Source Code Pro", "Monaco", "Consolas", Courier;
+
+:root {
+  font: 16px/1 $default-font-family;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $default-font-family;
+}
+
+blockquote {
+  font: italic 1.3em $quote-font-family;
+}
+
+pre {
+  font: .8rem $code-font-family;
+}
+
+code {
+  font: .8rem $code-font-family;
+}
+
+.main-nav {
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 200;
+    line-height: 1;
+  }
+
+  .main-nav-links {
+    a, .material-icons {
+      font-size: 1.6rem;
+
+      @media screen and (min-width: 28rem) { font-size: 1rem }
+      @media screen and (min-width: 40rem) { font-size: 1.1rem }
+    }
+  }
+}
+
+.main-header {
+  text-align: center;
+
+  h2 {
+    font-weight: 300;
+    font-size: 1.25rem;
+
+    @media screen and (min-width: 40rem) { font-size: 1.5rem; }
+  }
+}
+
+.post-list {
+  list-style: none;
+}
+
+.post-listing-link {
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.post-listing-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.post-listing-published-date {
+  font-size: 1.1rem;
+  font-weight: 200;
+  text-align: right;
+}
+
+.main-footer {
+  font-size: .8rem;
+  text-align: center;
+
+  p { line-height: 1.6; }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.post {
+  font-size: .9rem;
+
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: 300;
+  }
+
+  h2 { font-size: 1.8rem; }
+  h3 { font-size: 1.6rem; }
+  h4 { font-size: 1.4rem; }
+  h5 { font-size: 1.2rem; }
+  h6 { font-size: 1rem; }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    font-weight: 400;
+    line-height: 2;
+  }
+}

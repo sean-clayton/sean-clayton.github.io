@@ -14,7 +14,7 @@ sass:
   style: compressed
 
 paginate: 20
-baseurl: /
+baseurl: # Don't include trailing /
 domain_name: 'https://blog.seanclayton.me'
 google_analytics: 'UA-19039465-4'
 disqus: false

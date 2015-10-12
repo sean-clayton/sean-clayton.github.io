@@ -1,0 +1,36 @@
+$default-timing-function: $ease-out-quad;
+$default-transition-duration: 250ms;
+
+$default-transition: $default-transition-duration $default-timing-function;
+
+html {
+  @include transition(160ms $default-timing-function);
+}
+
+.main-header {
+  @include transition($default-transition);
+}
+
+.avatar {
+  @include transition($default-transition);
+}
+
+.nav-links a {
+  @include transition($default-transition);
+}
+
+.material-icons {
+  @include transition($default-transition);
+}
+
+.main-content {
+  @include transition($default-transition);
+}
+
+.post-listing-title {
+  @include transition($default-transition);
+}
+
+.post-listing-published-date {
+  @include transition($default-transition);
+}

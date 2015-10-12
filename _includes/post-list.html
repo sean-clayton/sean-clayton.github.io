@@ -1,8 +1,10 @@
-<ul id="post-list">
+<ul class="post-list">
   {% for post in paginator.posts %}
-    <li>
-      <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"><aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
-      <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }} <h2>{{ post.description }}</h2></a>
+    <li class="post-listing">
+      <a class="post-listing-link" href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">
+        <aside class="post-listing-published-date">{{ post.date | date:"%b %d" }}</aside>
+        <h3 class="post-listing-title">{{ post.title }}</h3>{% if post.description %}<h4 class="post-listing-description">{{ post.description }}</h4>{% endif %}
+      </a>
     </li>
   {% endfor %}
 </ul>

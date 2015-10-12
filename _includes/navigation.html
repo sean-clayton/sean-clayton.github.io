@@ -1,12 +1,21 @@
-<nav class="main-nav">
-  {% if page.url != "/index.html" %}
-    <a href="{{ site.baseurl }}"> <span class="arrow">←</span> Home </a>
-  {% endif %}
-
-  {% if page.url != "/about/" %}
-    {% if site.aboutPage %}
-      <a href="{{ site.baseurl }}about">About </a>
-    {% endif %}
-  {% endif %}
-  <a class="cta" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+<nav class="main-nav {% if page.profile %}hero-nav{% endif %}">
+  <a href="{{ site.baseurl }}/"><h1>{{ site.name }}</h1></a>
+  <section class="main-nav-links">
+    <a href="https://github.com/{{ site.github_user}}">
+      <i class="material-icons">code</i>
+      <span class="link-text">Code</span>
+    </a>
+    <a href="https://twitter.com/{{ site.authorTwitter }}">
+      <i class="fa fa-twitter"></i>
+      <span class="link-text">Tweets</span>
+    </a>
+    <a href="#">
+      <i class="material-icons">face</i>
+      <span class="link-text">About</span>
+    </a>
+    <a href="mailto:hello@seanclayton.me">
+      <i class="material-icons">email</i>
+      <span class="link-text">Email</span>
+    </a>
+  </section>
 </nav>

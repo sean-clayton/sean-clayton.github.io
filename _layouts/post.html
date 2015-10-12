@@ -3,27 +3,26 @@ layout: default
 ---
 
 <article class="post">
-  <header>
-    <h1>{{ page.title }}</h1>
-    <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h2 class="post-subtitle">{{ page.date | date:"%B %-d, %Y" }}</h2>
   </header>
-  <section id="post-body">
-    {{content}}
+  <section class="post-body">
+{{content}}
   </section>
 
-  <footer id="post-meta" class="clearfix">
-    <a href="https://twitter.com/{{ site.authorTwitter }}">
-      <img class="2x avatar" src="https://en.gravatar.com/avatar/d69626b1814c41916b6d627813d02a98?s=200"/>
-      <div>
-        <span class="dark">{{ site.author }}</span>
-        <span>{{ site.authorSnippet }}</span>
-      </div>
-    </a>
-
-    <section id="sharing">
+  <!-- <footer class="post-footer">
+    <section class="author-mini-bio">
+      <a href="https://twitter.com/{{ site.authorTwitter }}">
+        <img class="2x avatar" src="https://en.gravatar.com/avatar/d69626b1814c41916b6d627813d02a98?s=512"/>
+        <div>
+          <span class="author">{{ site.author }}</span>
+          <span class="author-snippet">{{ site.authorSnippet }}</span>
+        </div>
+      </a>
+    </section>
+    <section class="sharing">
       {% include share.html %}
     </section>
-  </footer>
+  </footer> -->
 </article>
-
-{% include footer.html %}
