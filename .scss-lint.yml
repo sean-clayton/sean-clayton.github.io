@@ -1,0 +1,7 @@
+exclude: 'css/**'
+
+linters:
+  ColorKeyword:
+    enabled: true
+  StringQuotes:
+    style: double_quotes
