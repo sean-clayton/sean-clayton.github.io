@@ -94,7 +94,7 @@ blockquote {
 }
 
 .main-footer {
-  color: #ccc;
+  color: darken($root-background-color, 33%);
 
   a {
     color: $blue;
