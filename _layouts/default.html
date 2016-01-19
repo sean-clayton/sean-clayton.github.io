@@ -7,6 +7,9 @@
   <meta name="theme-color" content="#0099ff">
 
   <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% if page.description %} {{ page.description }}{% endif %}{% endif %}</title>
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% endif %}
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
