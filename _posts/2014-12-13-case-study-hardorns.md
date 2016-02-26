@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Case Study: Hardorn's"
+title: "Case Study: Hadorn's"
 date: "2014-12-13"
 permalink: "hadorns-redesign"
 ---
