@@ -2,7 +2,7 @@
 layout: post
 title: "Case Study: Hadorn's"
 date: "2014-12-13"
-permalink: "hadorns-redesign"
+permalink: "hadons-redesign"
 ---
 
 ![Bardstown, KY](https://res.cloudinary.com/seanclayton/image/upload/v1443980971/kfri8dtzumjsyaxzt9eq.jpg)
